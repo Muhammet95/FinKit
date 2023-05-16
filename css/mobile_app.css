@@ -1,0 +1,138 @@
+@media (max-width: 1035px) {
+    header > .blocks > .cards {
+        flex-wrap: wrap;
+    }
+    header > .blocks > .cards > .card {
+        width: 40% !important;
+    }
+}
+
+@media (max-width: 950px) {
+    header {
+        padding: 0 100px !important;
+    }
+    main {
+        padding: 0 100px !important;
+    }
+}
+
+@media (max-width: 850px) {
+    header {
+        padding: 0 50px !important;
+    }
+    main {
+        padding: 0 50px !important;
+    }
+}
+
+@media (max-width: 800px) {
+    header {
+        height: 850px !important;
+    }
+    header > .info {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    header > .info > .left {
+        width: 100%;
+    }
+    header > .info > .right {
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 750px) {
+    header {
+        height: 890px !important;
+    }
+    header > .blocks {
+        margin-top: 16px;
+        margin-bottom: 23px;
+    }
+    header > .blocks > .cards {
+        bottom: 0 !important;
+    }
+    header > .info > .left > .content .order {
+        width: 245px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    main > .section_2 {
+        flex-wrap: wrap;
+    }
+    main > .section_2 > div {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 600px) {
+    header > .info {
+        align-items: flex-start;
+    }
+    header > .info > .left {
+        width: 100% !important;
+    }
+    header > .info > .left > .content {
+        width: 100% !important;
+    }
+    header > .info > .left > .content .order {
+        width: 100% !important;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+    main {
+        margin-top: 40px !important;
+    }
+    main > .section_1 {
+        width: 100% !important;
+    }
+    main > .section_3 {
+        flex-wrap: wrap;
+        margin-top: 40px !important;
+    }
+    main > .section_3 > div {
+        width: 100% !important;
+        justify-content: space-between;
+    }
+    main > .section_3 > div > .order {
+        width: 100% !important;
+        padding: 10px 10px !important;
+    }
+    main > .section_3 > div.cards > .card {
+        box-shadow: 6px 4px 12px 0px #0000000D;
+        border-radius: 12px;
+    }
+}
+@media (max-width: 500px) {
+    main {
+        padding: 0 16px !important;
+    }
+    header {
+        height: 920px !important;
+        padding: 0 16px !important;
+    }
+    header > .info {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    header > .blocks {
+        margin-top: 40px;
+    }
+    header > .blocks > .cards > .card {
+        height: 60px !important;
+    }
+    header > .blocks > .cards > .card > .content {
+        flex-direction: column-reverse;
+    }
+    header > .blocks > .cards > .card > .content .icon {
+        height: 25px;
+    }
+    header > .blocks > .cards > .card > .content .icon img {
+        top: -20px !important;
+    }
+    header > .blocks > .cards > .card > .content .icon img.front {
+        top: -13px !important;
+    }
+}
